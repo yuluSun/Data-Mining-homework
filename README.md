@@ -1,7 +1,7 @@
 # Data-Mining-homework
 Data Mining homework
 # Data Mining实验报告（一）
-##### 孙玉璐（github:yuluSun）  
+##### 孙玉璐
 ---
 
 
