@@ -103,7 +103,7 @@ def bench(estimator, name, data):
 
 ## **实验总结：**
 
-### 本次实验在两个数据集上对8种聚类方法进行了测试。明显看出在sklearn.dataset.fetch_20newsgroups数据集上运行的时间复杂度较高。由结果分析，GaussianMixtures方法的NMI最大，其次是SpectralClustering。MeanShift聚类方法由于参数设置不佳致使聚类结果出现了NMI和homogeneity均为0的情况。Ward和AgglomerativeClustering两个聚类方法采用了同一种算法，使用了不同的linkage参数值，ward可作为AgglomerativeClustering的一个参数。
+### 本次实验在两个数据集上对8种聚类方法进行了测试。通过对比可以看出在20newsgroups数据集上运行的时间复杂度较高。由结果分析，GaussianMixtures方法的NMI最大，其次是SpectralClustering。MeanShift聚类方法由于参数设置不佳致使聚类结果出现了NMI和homogeneity均为0的情况。Ward和AgglomerativeClustering两个聚类方法采用了同一种算法，使用了不同的linkage参数值，ward可作为AgglomerativeClustering的一个参数。
 
 
 
