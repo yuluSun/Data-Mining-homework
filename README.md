@@ -58,7 +58,7 @@ def bench(estimator, name, data):
 
 
 ### 3. cluster各种聚类算法调用定义好的函数bench，输出实验结果。
-* ##### **完整代码见目录下的first_dataset.py和second_dataset.py文件**
+* ##### **完整代码见目录下的digits_dataset.py和20 newsgroups_dataset.py文件**
 
 ---
 
